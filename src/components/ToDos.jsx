@@ -36,7 +36,7 @@ render() {
               {todo.todos}
               <div className={style.date}>{todo.date}</div>
             </li>
-            <Button id={todo.id} onClick={this.onDeleteHandler.bind(this)}>DELETE</Button>
+            <Button id={todo.id} onClick={this.onDeleteHandler}>DELETE</Button>
           </ul>
         );
       })}
